@@ -1,0 +1,24 @@
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=submit],
+textarea{
+	width:67%;
+	min-width:100px;
+	padding:5px 3px 3px 3px;
+	
+	/*background:#d9f3f9 url('images/input-shadow.jpg') top left no-repeat;*/
+	
+	background-color:#d9f3f9;
+	
+	border:1px solid #0054a4;
+	
+		/* border radius */
+		/* Firefox */
+		-moz-border-radius: 3px; 
+		/* WebKit */
+		-webkit-border-radius: 3px; 
+		/* IE9+, Opera 10.5+, current releases of Google Chrome & etc */
+		border-radius:3px;
+	
+}
