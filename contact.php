@@ -226,6 +226,6 @@ session_start();
 		<script type="text/javascript" src="js/SimpleContactForm.js" ></script>
 		<?php
 	}
-	
+	?>
 </body>
 </html>
