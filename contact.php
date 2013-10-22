@@ -215,9 +215,6 @@ session_start();
 	}// end form submission data check
 	?>	
 	
-	
-	
-	
 	<?php
 	// and of course, the JavaScript goes in the footer.
 	if(!isset($_POST['send_message')){
