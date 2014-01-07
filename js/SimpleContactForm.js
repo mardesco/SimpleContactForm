@@ -99,9 +99,11 @@ try{
 
 		if(errors){
 			validationFailed(e);
+			// next, a bugfix: have to re-set the value of the errors var, or they'll never be able to send the form, even if they correct the inputs!
+			errors = false;
 			return false;
 		}
-		// but no else clause!
+		// but no else clause!  (eg. return true)
 		// because any return value at all will prevent form submission: yes, even return true prevents the submission of the form.
 	}
 }catch(exception){
